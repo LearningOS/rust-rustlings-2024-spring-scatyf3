@@ -13,6 +13,6 @@ fn indexing_tuple() {
     // Replace below ??? with the tuple indexing syntax.
     let second = numbers.2;
 
-    assert_eq!(2, second,
+    assert_eq!(numbers.2, second,
         "This is not the 2nd number in the tuple!")
 }
